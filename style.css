@@ -39,11 +39,10 @@ header nav .a:hover{
 }
 
 @media only screen and (max-width: 767px) {
-  header {
-  
-    padding: 10px;
+  nav {
+    margin-right:0px;
+    padding: 0px;
   }
-
  
   header h1{
     display: none;
