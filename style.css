@@ -43,6 +43,7 @@ header nav .a:hover{
     margin-right:0px;
     padding: 0px;
   }
+
  
   header h1{
     display: none;
@@ -76,12 +77,6 @@ header nav .a:hover{
 
   .why_us{
     height: 600px;
-    background-image: url(./asset/why_us.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .pop{
-    height: 600px;
   }
 }
 
@@ -92,9 +87,7 @@ header nav .a:hover{
   text-align: center;
   margin-top: 80px;
 }
-.top button:hover{
- cursor: pointer;
-}
+
 
 .who{
 background-image: url("./asset/bg.jpg");
@@ -173,13 +166,6 @@ footer div p{
   background-color: #f5f5f5;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-}
-
-.care-service:hover{
-  transform: scale(1.1);
-  /* transition-delay: 1s; */
-  transition: transform 0.3s ease-in-out;
 }
 
  .care-service h3{
@@ -217,22 +203,7 @@ background-position: center;
 text-align: center;
 font-family:cursive;
 font-size: 19px;
-animation: fadeIn 2s ease-out forwards; /* Apply fade-in animation */
-}
 
-.pop{
-  width: 100vw;
-  height: 500px;
-  background-color: rgba(111, 111, 111, 0.5);
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 
@@ -301,46 +272,17 @@ textarea {
 @keyframes slowFadeIn {
   from {
     opacity: 0;
-    
   }
   to {
     opacity: 1;
-    
   }
-}
-footer,
-.About_us,
-.top,
-.bgi,
-.who,
-.care-service,
-.why_us,
-.contact {
-  animation: slowFadeIn 5s ease-out;
 }
 
-
-@keyframes slowFadeIn {
-  from {
-    
-    transform: scale(0.95);
-  }
-  to {
-    
-    transform: scale(1);
-  }
-}
-footer,
-.About_us,
-.top,
-.bgi,
 .who,
 .care-service,
 .why_us,
 .contact {
   animation: slowFadeIn 2s ease-out;
 }
-
-
 
 
